@@ -1,0 +1,6 @@
+# Remove these comments or your apt-mirror config file will fail to parse
+set base_path {path to your core-sample-repo-ubuntu base}/core-sample-repo-ubuntu/precise/main/main
+# Leave these mirrors as they are, apt-mirror includes the repo path in the mirror path
+deb http://archive.ubuntu.com/ubuntu precise main
+clean http://archive.ubuntu.com/ubuntu
+

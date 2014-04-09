@@ -1,0 +1,9 @@
+distribution: ubuntu
+release: precise
+repositories:
+  main:
+    path: precise/main
+    components: main
+  security:
+    path: precise/security
+    components: main
