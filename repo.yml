@@ -1,9 +1,22 @@
 distribution: ubuntu
-release: precise
-repositories:
-  main:
-    path: precise/main
-    components: main
-  security:
-    path: precise/security
-    components: main
+versions:
+  precise:
+    upstreams:
+      main:
+        path: precise/main
+        components:
+          - main
+      security:
+        path: precise/security
+        components:
+          - main
+  trusty:
+    upstreams:
+      main:
+        path: trusty/main
+        components:
+          - main
+      security:
+        path: trusty/security
+        components:
+          - main
